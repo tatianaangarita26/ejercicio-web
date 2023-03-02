@@ -14,7 +14,7 @@ html{
 /*Menu*/
 
 .container-header{
-    background: #1e2326;
+    background: #1e2026;
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +34,7 @@ html{
 .container-header header .logo a{
     font-family: 'Ringteaous';
     font-size: 36px;
-    color: #9558d2;
+    color: #ab3bf0;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ html{
 }
 
 .nav-responsive{
-    background-color: #9558d2;
+    background-color: #8727e7;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -65,10 +65,37 @@ html{
     display: none;
 }
 
+/* Media Queries - Responsive */
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    .responsive{
+        display: block;
+        position: absolute;
+        right: 1em;
+        top: 3.3em;
+        background-color: #a280da;
+        width: fit-content;
+        margin-left: 1rem;
+    }
+    .responsive ul{
+        display: block !important;
+    }
+    .nav-responsive ul li{
+        border-bottom: 1px solid rgb(233, 204, 204);
+        padding: 10px 0;
+    }
+}
+
 /*Section Inicio*/
 
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url("../img/fondo.jpg") no-repeat center center;
+    background: linear-gradient(to top, rgba(30, 33, 38, 0.8), rgb(30, 32, 38)), url("../img/fondo.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -87,7 +114,7 @@ html{
 
 .inicio .container-banner img{
     margin-top: 40px;
-    border: 10px solid #9558d2;
+    border: 10px solid #8925ee;
     display: block;
     width: 80%;
     margin: auto;
@@ -120,13 +147,13 @@ html{
 }
 
 .inicio .container-banner .redes a:hover{
-    background-color: #9558d2;
+    background-color: #7a20db;
 }
 
 /*Section Sobre Mi*/
 
 .sobremi{
-    background-color: #1e2326;
+    background-color: #1e1e26;
     color: white;
     padding: 50px 20px;
 }
@@ -178,12 +205,12 @@ html{
 
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #9558d2;
+    color: #ab57ff;
     width: 130px;
 }
 
 .sobremi .fila .col ul li span{
-    background-color: #9558d2;
+    background-color: #a339ff;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -208,7 +235,7 @@ html{
 }
 
 .sobremi .fila .col .container-intereses .interes:hover{
-    background-color: #9558d2;
+    background-color: #ab22f5;
 }
 
 .sobremi .fila .col .container-intereses .interes i{
@@ -236,7 +263,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #9558d2;
+    background-color: #9c2efc;
     z-index: -1;
     transition: 1s;
 }
@@ -248,7 +275,7 @@ html{
 /*Section skills*/
 
 .skills{
-    background-color: #252a2e;
+    background-color: #25262e;
     color: white;
     padding: 50px 20px;
 }
@@ -295,7 +322,7 @@ html{
 }
 
 .skills .skill .progreso{
-    background-color: #9558d2;
+    background-color: #d024ff;
     position: absolute;
     top: 0;
     left: 0;
@@ -306,7 +333,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #9558d2;
+    background-color: #a201ff;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -419,7 +446,7 @@ html{
 /*Section Curriculum*/
 
 .curriculum{
-    background-color: #1e2326;
+    background-color: #1e1e26;
     color: white;
     padding: 50px 20px;
 }
@@ -472,7 +499,7 @@ html{
 }
 
 .curriculum .fila .item .casa{
-    color: #9558d2;
+    color: #b759ff;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -480,7 +507,7 @@ html{
 
 .curriculum .fila .item .fecha{
     display: block;
-    color: #9558d2;
+    color: #ec1eff;
     margin-bottom: 10px;
 }
 
@@ -489,18 +516,18 @@ html{
 }
 
 .curriculum .fila .izq{
-    border-right: 2px solid #9558d2;
+    border-right: 2px solid #d60bff;
     margin-right: 20px;
 }
 
 .curriculum .fila .der{
-    border-left: 2px solid #9558d2;
+    border-left: 2px solid #d60bff;
     margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #9558d2;
+    background-color: #d60bff;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -513,7 +540,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #9558d2;
+    background-color: #d60bff;
     float: right;
     position: relative;
     bottom: 4px;
@@ -521,7 +548,7 @@ html{
 
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #9558d2;
+    background-color: #d60bff;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -534,7 +561,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #9558d2;
+    background-color: #d60bff;
     float: left;
     position: relative;
     bottom: 4px;
@@ -548,7 +575,7 @@ html{
 /*Section Portfolio*/
 
 .portfolio{
-    background-color: #252a2e;
+    background-color: #25262e;
     color: white;
     padding: 50px 20px;
 }
@@ -590,7 +617,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(123, 34, 150, 0.8), rgba(123,34,150,0.8));
+    background: linear-gradient(rgba(150, 34, 71, 0.8), rgba(123,34,150,0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -617,7 +644,7 @@ html{
 
 .contacto{
     background-image: url(../img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #1e1e26;
     color: white;
     padding: 50px 0;
 }
@@ -650,7 +677,7 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252a2e;
+    background-color: #25262e;
     color: white;
     font-size: 18px;
 }
@@ -675,7 +702,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #9558d2;
+    background-color: #990ae6;
     transition: 1s;
     z-index: -1;
 }
@@ -691,7 +718,7 @@ html{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252a2e;
+    background-color: #25262e;
     padding: 20px;
     width: 350px;
     left: 50%;
@@ -715,7 +742,7 @@ html{
 /*Footer */
 
 footer{
-    background-color: #252a2e;
+    background-color: #25262e;
     color: white;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -745,7 +772,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #9558d2;
+    background-color: #8d1bff;
     color: white;
     position: absolute;
     left: 50%;
@@ -756,31 +783,7 @@ footer .arriba{
     font-size: 18px;
 }
 
-/* Media Queries - Responsive */
 
-@media screen and (max-width:980px){
-    nav{
-        display: none;
-    }
-    .nav-responsive{
-        display: block;
-    }
-    .nav-responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #a280da;
-        width: 180px;
-    }
-    .nav-responsive ul{
-        display: block !important;
-    }
-    .nav-responsive ul li{
-        border-bottom: 1px solid rgb(233, 204, 204);
-        padding: 10px 0;
-    }
-}
 @media screen and (max-width:700px) {
     .sobremi .fila{
         display: block;
