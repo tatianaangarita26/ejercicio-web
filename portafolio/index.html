@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Menu Header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Tatiana Angarita</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Trabajos</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div> 
+    <!--Section inicio-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/perfil2.jpeg" alt="">
+            </div>
+            <h1>Karol Tatiana Angarita</h1>
+            <h2>Aprendiz en Analisis y Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://web.facebook.com/tatiana.valero.9237/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/itst_xana/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/tatianaangarita26" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--Section Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Karol.</span>Soy aprendiz de Analisis y Desarrollo de Software en el Sena,
+            Estoy aprendiendo html y css.</p>
+        <div class="fila">
+            <!--Datos Personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul> 
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        26-10-2003
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        +57 322 740 1924
+                    </li>
+                    <li> 
+                        <strong>Email</strong>
+                        tatianaangarita150@gmail.com
+                    </li>
+                    <li> 
+                        <strong>Direccion</strong>
+                        Garzon, Huila, Colombia
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>Aprendiz</span>
+                    </li>
+                </ul>
+            </div>
+             <!--Intereses-->
+        <div class="col">
+            <h3>Intereses</h3>
+            <div class="container-intereses">
+                <div class="interes">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>Juegos</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>Musica</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-film"></i>
+                    <span>Peliculas</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Libros</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>Tecnologia</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <span>Escritura</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-computer"></i>
+                    <span>Programacion</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <span>Dibujo</span>
+                </div>
+            </div>
+        </div>
+     </div>
+       <button>
+        Descargar CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+       </button>
+    </div>
+    </section>
+    <!--Section Skills-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MediBang Paint</span>
+                        <div class="barra-skill">
+                            <div class="progreso medibang">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño interfaz</span>
+                        <div class="barra-skill">
+                            <div class="progreso diseño">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Secundaria</h4>
+                        <span class="casa">Luis Calixto Leiva</span>
+                        <span class="fecha">2016 - 2020</span>
+                        <p>Desde 7° hasta 11°</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                        <div class="item izq">
+                            <h4>Tecnologo</h4>
+                            <span class="casa">Sena</span>
+                            <span class="fecha">2022 - 2023</span>
+                            <p>Analisis y Desarrollo de Software</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Empresa:</h4>
+                        <span class="casa">QUILEIA SAS</span>
+                        <span class="fecha">2018 - 2029</span>
+                        <p>Desarrollo Java Web y Movil</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        <div class="item der">
+                            <h4>Empresa</h4>
+                            <span class="casa">Inetum</span>
+                            <span class="fecha">2020 - Actualidad</span>
+                            <p>Programador SQL Oracle</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <!--Section Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Trabajos en Clase</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="./pages/curriculum/index.html" target="_blank">
+                        <img src="./img/curriculum.png" alt="" />
+                        <div class="overlay">
+                            <h3>Curriculum</h3>
+                            <p>Ejercicio 001</p>
+                        </div>
+                    </a>
+                    </div>
+                <div class="proyecto">
+                    <a href="https://github.com/tatianaangarita26" target="_blank">
+                        <img src="./img/git.webp" alt="" />
+                        <div class="overlay">
+                            <h3>GitHub</h3>
+                            <p>Ejercicio 002</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./index.html" target="_blank">
+                        <img src="./img/portfolio.png" alt="" />
+                        <div class="overlay">
+                            <h3>Portafolio</h3>
+                            <p>Ejercicio 003</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://github.com/tatianaangarita26/ramas-prueba" target="_blank">
+                        <img src="./img/ramas.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Ramas-prueba</h3>
+                            <p>Ejercicio 004</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./pages/ejercicio1/javascript.js" target="_blank">
+                        <img src="./img/Javascript.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>JavaScript</h3>
+                            <p>Ejercicio 005</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./pages/ES6/ES6.js" target="_blank">
+                        <img src="./img/ES6.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>ES6</h3>
+                            <p>Ejercicio 006</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./pages/calculadora/index.html" target="_blank">
+                        <img src="./img/calculadora.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>Ejercicio 007</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./pages/pasaPalabra/index.html" target="_blank">
+                        <img src="./img/pasapalabra.png" alt="" />
+                        <div class="overlay">
+                            <h3>Pasapalabra</h3>
+                            <p>Ejercicio 008</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./pages/DOM/index.html" target="_blank">
+                        <img src="./img/DOM.png" alt="" />
+                        <div class="overlay">
+                            <h3>DOM</h3>
+                            <p>Ejercicio 009</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/nuevosejercicios/ejercicio1.js" target="_blank">
+                    <img src="./img/js.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>Java ejercicios</h3>
+                        <p>Ejercicio 010</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/javaejercicios/index.html" target="_blank">
+                    <img src="./img/js1.webp" alt="" />
+                    <div class="overlay">
+                        <h3>Java Ejercicios 2</h3>
+                        <p>Ejercicio 011</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/javaejercicios2/index.html" target="_blank">
+                    <img src="./img/js2.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>Java Ejercicios 3</h3>
+                        <p>Ejercicio 012</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/EjercicioMensaje/index.html" target="_blank">
+                    <img src="./img/mensaje.png" alt="" />
+                    <div class="overlay">
+                        <h3>Mensaje</h3>
+                        <p>Ejercicio 013</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/cambiarcolor/index.html" target="_blank">
+                    <img src="./img/damecolor.png" alt="" />
+                    <div class="overlay">
+                        <h3>Dame Color !</h3>
+                        <p>Ejercicio 014</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/Contador/index.html" target="_blank">
+                    <img src="./img/contador.png" alt="" />
+                    <div class="overlay">
+                        <h3>Contador</h3>
+                        <p>Ejercicio 015</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/carrusel/index.html" target="_blank">
+                    <img src="./img/carrusel.png" alt="" />
+                    <div class="overlay">
+                        <h3>Carrusel</h3>
+                        <p>Ejercicio 016</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/ApiConsumo/index.html" target="_blank">
+                    <img src="./img/api.png" alt="" />
+                    <div class="overlay">
+                        <h3>Api Consumo</h3>
+                        <p>Ejercicio 017</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/Api/index.html" target="_blank">
+                    <img src="./img/paises.png" alt="" />
+                    <div class="overlay">
+                        <h3>Api Paises</h3>
+                        <p>Ejercicio 018</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/pokemonapi/index.html" target="_blank">
+                    <img src="./img/pokemon.png" alt="" />
+                    <div class="overlay">
+                        <h3>Pokemon Api</h3>
+                        <p>Ejercicio 019</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/DOMToDOList/index.html" target="_blank">
+                    <img src="./img/lista.png" alt="" />
+                    <div class="overlay">
+                        <h3>DOM To List</h3>
+                        <p>Ejercicio 020</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/landingPages/index.html" target="_blank">
+                    <img src="./img/lading.png" alt="" />
+                    <div class="overlay">
+                        <h3>Landing Pages</h3>
+                        <p>Ejercicio 021</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/juego/index.html" target="_blank">
+                    <img src="./img/juego.png" alt="" />
+                    <div class="overlay">
+                        <h3>Piedra, Papel o Tijera</h3>
+                        <p>Ejercicio 022</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/DrumKits/index.html" target="_blank">
+                    <img src="./img/DrumKits.png" alt="" />
+                    <div class="overlay">
+                        <h3>Drum Kits</h3> 
+                        <p>Ejercicio 023</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/diccionario/index.html" target="_blank">
+                    <img src="./img/diccionario.png" alt="" />
+                    <div class="overlay">
+                        <h3>Api Diccionario</h3> 
+                        <p>Ejercicio 024</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/ApiMovies/index.html" target="_blank">
+                    <img src="./img/apimovies.png" alt="" />
+                    <div class="overlay">
+                        <h3>Api Peliculas</h3> 
+                        <p>Ejercicio 025</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/cursoranimado/index.html" target="_blank">
+                    <img src="./img/cursor.png" alt="" />
+                    <div class="overlay">
+                        <h3>Cursor Animado</h3> 
+                        <p>Ejercicio 026</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/cronometro/index.html" target="_blank">
+                    <img src="./img/cronometro.png" alt="" />
+                    <div class="overlay">
+                        <h3>Cronometro</h3> 
+                        <p>Ejercicio 027</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/Galeria3D/index.html" target="_blank">
+                    <img src="./img/galeria3D.png" alt="" />
+                    <div class="overlay">
+                        <h3>Galeria 3D</h3> 
+                        <p>Ejercicio 028</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio1/index.html" target="_blank">
+                    <img src="./img/ejercicio1.png" alt="" />
+                    <div class="overlay">
+                        <h3>Formulario de Registro</h3> 
+                        <p>Ejercicio 029</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio2/index.html" target="_blank">
+                    <img src="./img/ejercicio2.png" alt="" />
+                    <div class="overlay">
+                        <h3>Galeria de Imagenes</h3> 
+                        <p>Ejercicio 030</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio3/index.html" target="_blank">
+                    <img src="./img/ejercicio3.png" alt="" />
+                    <div class="overlay">
+                        <h3>Temporizador</h3> 
+                        <p>Ejercicio 031</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio4/index.html" target="_blank">
+                    <img src="./img/ejercicio4.png" alt="" />
+                    <div class="overlay">
+                        <h3>Menu Desplegable</h3> 
+                        <p>Ejercicio 032</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio6/index.html" target="_blank">
+                    <img src="./img/ejercicio6.png" alt="" />
+                    <div class="overlay">
+                        <h3>Slider Automático</h3> 
+                        <p>Ejercicio 033</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio8/index.html" target="_blank">
+                    <img src="./img/ejercicio8.png" alt="" />
+                    <div class="overlay">
+                        <h3>Contador de caracteres/h3> 
+                        <p>Ejercicio 034</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/10nuevosejercicios/ejercicio9/index.html" target="_blank">
+                    <img src="./img/ejercicio9.png" alt="" />
+                    <div class="overlay">
+                        <h3>Temporizador de cuenta regresiva</h3> 
+                        <p>Ejercicio 035</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://web.facebook.com/tatiana.valero.9237/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/itst_xana/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/tatianaangarita26" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tatiana-angarita-437369275/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="./js/js script.js"></script>
+</body>
+</html>
